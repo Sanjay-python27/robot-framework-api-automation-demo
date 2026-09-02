@@ -3,5 +3,6 @@ charset-normalizer==3.5.1
 idna==3.19
 requests==2.34.2
 robotframework==7.4.2
+robotframework-pabot==5.2.2
 robotframework-requests==0.9.7
 urllib3==2.7.0

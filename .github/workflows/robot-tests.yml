@@ -20,7 +20,7 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run: robot -d results test-cases/
+      - run: pabot --processes 3 -d results test-cases/
 
       - uses: actions/upload-artifact@v4
         if: always()
